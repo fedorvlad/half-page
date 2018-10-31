@@ -18,8 +18,7 @@ console.log('message before func' );
 
 function validateForm() {
     var x = document.getElementById(`name`).value;
-    console.log('value of X_' +x+'_' );
-    if (x == "") {
+     if (x == "") {
         document.getElementById(`status`).innerHTML = "Name cannot be empty";
         return false;
     }
@@ -36,7 +35,7 @@ function validateForm() {
     }
     x = document.getElementById(`subject`).value;
     if (x == "") {
-        document.getElementById('status').innerHTML = "Subject cannot be empty";
+        document.getElementById(`status`).innerHTML = "Subject cannot be empty";
         return false;
     }
     x = document.getElementById(`message`).value;
@@ -46,6 +45,7 @@ function validateForm() {
     }
     //get input field values data to be sent to server
     document.getElementById(`status`).innerHTML = "Sending...";
+    console.log('Start Sending Message');
     formData = {
         'name': $('input[name=name]').val(),
         'email': $('input[name=email]').val(),
@@ -53,7 +53,7 @@ function validateForm() {
         'message': $('textarea[name=message]').val()
     };
 
-
+    console.log(formData.message);
     $.ajax({
         url: "mail.php",
         type: "POST",
