@@ -45,7 +45,7 @@ function validateForm() {
         return false;
     }
     //get input field values data to be sent to server
-    document.getElementById('status').innerHTML = "Sending...";
+    document.getElementById(`status`).innerHTML = "Sending...";
     formData = {
         'name': $('input[name=name]').val(),
         'email': $('input[name=email]').val(),
@@ -68,4 +68,4 @@ function validateForm() {
             $('#status').text(jqXHR);
         }
     });
-}
+};
