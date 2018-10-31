@@ -1,0 +1,43 @@
+[
+    {
+        "img": "img/galery/tovar/1.png",
+        "title": "взуття",
+        "text": "Несортоване взуття",
+        "link": "shoes.html"
+    },
+
+    {
+        "img": "img/galery/tovar/2.png",
+        "title": "сумки",
+        "text": "Несортоване взуття",
+        "link": "shoes.html"
+    },
+
+    {
+        "img": "img/galery/tovar/3.png",
+        "title": "дитяче взуття",
+        "text": "Сортоване взуття",
+        "link": "shoes.html"
+    },
+
+    {
+        "img": "img/galery/tovar/4.png",
+        "title": "жіноче взуття",
+        "text": "Сортоване взуття",
+        "link": "shoes.html"
+    },
+
+    {
+        "img": "img/galery/tovar/5.png",
+        "title": "одяг",
+        "text": "Чоловічий одяг",
+        "link": "shoes.html"
+    },
+
+    {
+        "img": "img/galery/tovar/6.png",
+        "title": "одяг",
+        "text": "Дитячий одяг",
+        "link": "shoes.html"
+    }
+]
