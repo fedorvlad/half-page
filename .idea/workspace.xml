@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a347938-2ed0-4ec8-a809-9af135acc4bc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/img/truck.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/myApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/myApp.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,20 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myApp.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="myApp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/myApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="238">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="524" column="19" lean-forward="true" selection-start-line="524" selection-start-column="19" selection-end-line="524" selection-end-column="19" />
+            <state relative-caret-position="267">
+              <caret line="643" column="60" selection-start-line="643" selection-start-column="60" selection-end-line="643" selection-end-column="60" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -78,8 +77,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/myApp.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -119,7 +118,7 @@
             <path>
               <item name="half-page" type="b2602c69:ProjectViewProjectNode" />
               <item name="half-page" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="half-page" type="b2602c69:ProjectViewProjectNode" />
@@ -164,7 +163,7 @@
       <updated>1540971947179</updated>
       <workItem from="1540971949644" duration="12257000" />
       <workItem from="1541001049554" duration="2861000" />
-      <workItem from="1541014868058" duration="5446000" />
+      <workItem from="1541014868058" duration="6323000" />
     </task>
     <task id="LOCAL-00001" summary="return truk bee bee">
       <created>1541001239981</created>
@@ -194,21 +193,34 @@
       <option name="project" value="LOCAL" />
       <updated>1541003893931</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add send mail funcion &amp; validate">
+      <created>1541022231492</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541022231492</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add send mail funcion &amp; validate">
+      <created>1541022662988</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541022662988</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20564000" />
+    <option name="totallyTimeSpent" value="21441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1845238" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.329582" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50074404" side_tool="true" visible="true" weight="0.329582" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49925596" visible="true" weight="0.329582" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -234,7 +246,8 @@
     <MESSAGE value="bee bee for mibile" />
     <MESSAGE value="edit free space" />
     <MESSAGE value="updated tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated tags" />
+    <MESSAGE value="add send mail funcion &amp; validate" />
+    <option name="LAST_COMMIT_MESSAGE" value="add send mail funcion &amp; validate" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/style.css">
@@ -315,10 +328,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/myApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="524" column="19" lean-forward="true" selection-start-line="524" selection-start-column="19" selection-end-line="524" selection-end-column="19" />
+        <state relative-caret-position="267">
+          <caret line="643" column="60" selection-start-line="643" selection-start-column="60" selection-end-line="643" selection-end-column="60" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -331,13 +351,6 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/myApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
     </entry>
