@@ -25,9 +25,8 @@ body,
 @media (max-width: 740px)
 {
   html,
-  body,
-  header,
-  .carousel {
+  body
+  {
     height: 100vh;
   }
 }
@@ -43,8 +42,6 @@ body,
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: #1C2331; } }
-
-
 
 @media (min-width: 800px) and (max-width: 850px) {
 
