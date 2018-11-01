@@ -47,8 +47,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="346" column="16" lean-forward="true" selection-start-line="346" selection-start-column="16" selection-end-line="346" selection-end-column="16" />
+            <state relative-caret-position="84">
+              <caret line="526" column="77" selection-start-line="526" selection-start-column="77" selection-end-line="526" selection-end-column="77" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -282,7 +282,7 @@
       <workItem from="1540971949644" duration="12257000" />
       <workItem from="1541001049554" duration="2861000" />
       <workItem from="1541014868058" duration="10754000" />
-      <workItem from="1541062853729" duration="2357000" />
+      <workItem from="1541062853729" duration="2989000" />
     </task>
     <task id="LOCAL-00001" summary="return truk bee bee">
       <created>1541001239981</created>
@@ -382,11 +382,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541065743918</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update link map">
+      <created>1541065942037</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1541065942037</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update link map">
+      <created>1541066050552</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1541066050552</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28229000" />
+    <option name="totallyTimeSpent" value="28861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -573,8 +587,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="346" column="16" lean-forward="true" selection-start-line="346" selection-start-column="16" selection-end-line="346" selection-end-column="16" />
+        <state relative-caret-position="84">
+          <caret line="526" column="77" selection-start-line="526" selection-start-column="77" selection-end-line="526" selection-end-column="77" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
