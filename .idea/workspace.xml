@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a347938-2ed0-4ec8-a809-9af135acc4bc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -47,8 +46,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="526" column="77" selection-start-line="526" selection-start-column="77" selection-end-line="526" selection-end-column="77" />
+            <state relative-caret-position="220">
+              <caret line="540" column="23" selection-start-line="540" selection-start-column="23" selection-end-line="540" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -282,7 +281,7 @@
       <workItem from="1540971949644" duration="12257000" />
       <workItem from="1541001049554" duration="2861000" />
       <workItem from="1541014868058" duration="10754000" />
-      <workItem from="1541062853729" duration="2989000" />
+      <workItem from="1541062853729" duration="3728000" />
     </task>
     <task id="LOCAL-00001" summary="return truk bee bee">
       <created>1541001239981</created>
@@ -396,11 +395,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541066050552</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="translate form send">
+      <created>1541066607665</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1541066607665</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28861000" />
+    <option name="totallyTimeSpent" value="29600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -446,7 +452,8 @@
     <MESSAGE value="kontak at form edited" />
     <MESSAGE value="TEST PHP" />
     <MESSAGE value="update link map" />
-    <option name="LAST_COMMIT_MESSAGE" value="update link map" />
+    <MESSAGE value="translate form send" />
+    <option name="LAST_COMMIT_MESSAGE" value="translate form send" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/style.css">
@@ -587,8 +594,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="526" column="77" selection-start-line="526" selection-start-column="77" selection-end-line="526" selection-end-column="77" />
+        <state relative-caret-position="220">
+          <caret line="540" column="23" selection-start-line="540" selection-start-column="23" selection-end-line="540" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
