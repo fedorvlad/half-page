@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ResponsiveSlides.js &middot; Alternative themes</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="responsiveslides.css">
+  <link rel="stylesheet" href="themes.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="responsiveslides.min.js"></script>
+  <script>
+   
+    $(function () {
+
+    
+      $("#slider1").responsiveSlides({
+        auto: false,
+        pager: true,
+        nav: true,
+        speed: 500,
+        maxwidth: 800,
+        namespace: "centered-btns"
+      });
+   
+
+    });
+  </script>
+</head>
+<body>
+  <div id="wrapper">
+       <div class="rslides_container">
+      <ul class="rslides" id="slider1">
+        <li><img src="galery2/1.jpg" alt=""></li>
+        <li><img src="galery2/2.jpg" alt=""></li>
+        <li><img src="galery2/3.jpg" alt=""></li>
+		<li><img src="galery2/4.jpg" alt=""></li>
+		<li><img src="galery2/5.jpg" alt=""></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
