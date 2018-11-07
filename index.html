@@ -463,7 +463,7 @@
 
           <!--Grid column-->
           <div class="col-md-9 mb-md-0 mb-5 ">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST" onsubmit="return validateForm()">
+            <form id="contact-form" name="contact-form" action="#" method="POST">
 
               <!--Grid row-->
               <div class="row">
@@ -480,7 +480,7 @@
                 <!--Grid column-->
                 <div class="col-md-6">
                   <div class="md-form mb-0">
-                    <input type="text" id="email" name="email" class="form-control">
+                    <input type="text" id="email" name="email" class="form-control" onfocus="this.select()">
                     <label for="email" class="">Ваша електронна пошта</label>
                   </div>
                 </div>
@@ -493,8 +493,8 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="md-form mb-0">
-                    <input type="text" id="subject" name="subject" class="form-control">
-                    <label for="subject" class="">Тема</label>
+                    <input type="text" id="numbers" name="numbers" class="form-control" onfocus="this.select()">
+                    <label for="numbers" class="">Телефон</label>
                   </div>
                 </div>
               </div>
@@ -518,8 +518,7 @@
             </form>
 
             <div class="col-12 text-center">
-              <!-- <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a> -->
-              <a class="btn btn-outline-primary" onclick="validateForm()">Надіслати</a>
+              <a class="btn btn-outline-primary" id="btnSend"">Надіслати</a>
             </div>
             <div class="status" id="status"></div>
           </div>
