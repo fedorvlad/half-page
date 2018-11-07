@@ -1,6 +1,3 @@
-//const serverURL = 'https://fedorvlad.github.io/half-page/';
-//var galeryHtml = '';
-
 // Start using JQuery
 $(document).ready(function(){
 
@@ -10,6 +7,7 @@ $(document).ready(function(){
     $('#btnSend').click(
         function ()
         {
+            document.getElementById(`status`).innerHTML = "";
             var x = document.getElementById(`name`).value;
             if (x == "") {
                // document.getElementById(`status`).innerHTML = "Ім'я повинно містити данні ";
