@@ -473,6 +473,7 @@
                   <div class="md-form mb-0">
                     <input type="text" id="name" name="name" class="form-control">
                     <label for="name" class="">Ваше Ім'я</label>
+                    <span id="spErrorN" class="msgErr" ></span>
                   </div>
                 </div>
                 <!--Grid column-->
@@ -482,6 +483,7 @@
                   <div class="md-form mb-0">
                     <input type="text" id="email" name="email" class="form-control" onfocus="this.select()">
                     <label for="email" class="">Ваша електронна пошта</label>
+                    <span id="spErrorE" class="msgErr" ></span>
                   </div>
                 </div>
                 <!--Grid column-->
@@ -495,6 +497,7 @@
                   <div class="md-form mb-0">
                     <input type="text" id="numbers" name="numbers" class="form-control" onfocus="this.select()">
                     <label for="numbers" class="">Телефон</label>
+                    <span id="spErrorT" class="msgErr" ></span>
                   </div>
                 </div>
               </div>
@@ -518,7 +521,7 @@
             </form>
 
             <div class="col-12 text-center">
-              <a class="btn btn-outline-primary" id="btnSend"">Надіслати</a>
+              <a class="btn btn-outline-primary" id="btnSend">Надіслати</a>
             </div>
             <div class="status" id="status"></div>
           </div>

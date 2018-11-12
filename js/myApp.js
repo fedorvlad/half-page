@@ -18,15 +18,16 @@ $(document).ready(function(){
              x = document.getElementById(`email`).value;
             if (x == "") {
                 //document.getElementById(`status`).innerHTML = "Email повинен мати значення";
-                document.getElementById(`email`).value = "Email повинен мати значення";
+                document.getElementById(`spError`).innerHTML = "Email повинен мати значення";
                 document.getElementById(`email`).focus();
                 return false;
             } else {
                 var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/i;
                 if (!re.test(x)) {
                    // document.getElementById(`status`).innerHTML = "Email формат некоректний";
-                    document.getElementById(`email`).value += "  E-mail формат некоректний";
-                    document.getElementById(`email`).focus();
+                   // document.getElementById(`email`).value += "  E-mail формат некоректний";
+                    document.getElementById(`spErrorE`).innerHTML = "Email повинен мати значення";
+                    document.getElementById(`email`).focus();vf
                     return false;
                 }
             }
